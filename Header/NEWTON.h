@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
+int Newton()
 {
     float x0,fx,dfx,nx0,Er,marErr;
     int n,contador;

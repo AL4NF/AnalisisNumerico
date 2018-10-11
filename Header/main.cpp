@@ -2,7 +2,9 @@
 #include"PORTADA.h"
 #include"OBJETIVO.h"
 #INCLUDE"BISECCION.h"
-#include "NEWTON.H"
+#include "NEWTON.h"
+#include"SECANTE.h"
+#include"PUNTOFIJO.h"
 
 using namespace std;
 
@@ -58,12 +60,14 @@ int main(void)
             case '4':
                 system("cls");
                 cout << "Usted eligio el Metodo de Secante\n";
+                SECANTE();
                 pausa();
                 break;
                 
             case '5':
                 system("cls");
                 cout << "Usted eligio el Metodo de Punto Fijo\n";
+                PUNTOFIJO();
                 pausa();
                 break;
                 

@@ -14,7 +14,7 @@
 
 double f(double);
 
-int main()
+int Biseccion()
 {
     int imax,iter;
     double xi,xd,ea,em,test,xa,xaold;
