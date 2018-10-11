@@ -38,7 +38,7 @@ int main(void)
             case '1':
                 system("cls");
                 cout << "Usted eligio el Metodo de Biseccion\n";
-                Biseccion();
+                BISECCION();
                 pausa();
                 break;
                 
