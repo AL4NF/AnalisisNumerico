@@ -8,7 +8,6 @@
 
 #ifndef SECANTE_h
 #define SECANTE_h
-
 #include <iostream>
 #include<cmath>
 #include<iomanip>
@@ -66,7 +65,7 @@ void Secante::resultado(){cout<<"la raiz es Xr= "<<calcularRaiz()<<endl;}
 double Secante::Error_re(double x1, double x2)
 {return abs(x1-x2)/abs(x1);}
 Secante::~Secante(){}
-int Secante(void)
+int main(void)
 {
     Secante obj;
     obj.datos();

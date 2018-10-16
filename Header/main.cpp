@@ -5,6 +5,7 @@
 #include "NEWTON.h"
 #include"SECANTE.h"
 #include"PUNTOFIJO.h"
+#include"GAUSS_JORDAN.h"
 
 using namespace std;
 
@@ -40,14 +41,14 @@ int main(void)
             case '1':
                 system("cls");
                 cout << "Usted eligio el Metodo de Biseccion\n";
-                BISECCION();
+                Biseccion();
                 pausa();
                 break;
                 
             case '2':
                 system("cls");
                 cout << "Usted eligio el Metodo de Newton-Rhapshon\n";
-                NEWTON();
+                Newton();
                 pausa();
                 break;
                 
@@ -60,20 +61,21 @@ int main(void)
             case '4':
                 system("cls");
                 cout << "Usted eligio el Metodo de Secante\n";
-                SECANTE();
+                Secante();
                 pausa();
                 break;
                 
             case '5':
                 system("cls");
                 cout << "Usted eligio el Metodo de Punto Fijo\n";
-                PUNTOFIJO();
+                Puntofijo();
                 pausa();
                 break;
                 
             case '6':
                 system("cls");
                 cout << "Usted eligio el Metodo de Gauss Jordan\n";
+                Gauss();
                 pausa();
                 break;
                 
