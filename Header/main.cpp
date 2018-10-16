@@ -1,7 +1,7 @@
 #include<iostream>
 #include"PORTADA.h"
 #include"OBJETIVO.h"
-#INCLUDE"BISECCION.h"
+#include"BISECCION.h"
 #include "NEWTON.h"
 #include"SECANTE.h"
 #include"PUNTOFIJO.h"
