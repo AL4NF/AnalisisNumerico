@@ -29,10 +29,14 @@ int main(void)
         cout << "4. Metodo de Secante" << endl;
         cout << "5. Metodo de Punto Fijo" << endl;
         cout << "6. Metodo de Gauss Jordan" << endl;
-        cout << "7. Metodo de" << endl;
-        cout << "8." << endl;
-        cout << "9." << endl;
-        cout << "10. Salir" << endl;
+        cout << "7. Metodo de Gauss Seidel" << endl;
+        cout << "8. Metodo de Diferencia Dividida de Newton" << endl;
+        cout << "9. Metodo de de Lagrange" << endl;
+        cout << "10. Metodo de Minimos Cuadrados" << endl;
+        cout << "11. Metodo de" << endl;
+        cout << "12. Metodo de" << endl;
+        cout << "13." << endl;
+        cout << "14. Salir" << endl;
         
         cin >> opc;
         
@@ -81,23 +85,40 @@ int main(void)
                 
             case '7':
                 system("cls");
-                cout << "Usted eligio el Metodo de.....\n";
+                cout << "Usted eligio el Metodo de Gauss Seidel\n";
                 pausa();
                 break;
                 
             case '8':
                 system("cls");
-                cout << "Usted eligio el Metodo de.....\n";
+                cout << "Usted eligio el Metodo de Diferencia Dividida de Newton\n";
                 pausa();
                 break;
                 
             case '9':
                 system("cls");
-                cout << "Usted eligio el Metodo de.....\n";
+                cout << "Usted eligio el Metodo de Lagrange\n";
                 pausa();
                 break;
                 
             case '10':
+                system("cls");
+                cout << "Usted eligio el Metodo de Minimos Cuadrados\n";
+                pausa();
+                break;
+                
+            case '11':
+                system("cls");
+                cout << "Usted eligio el...\n";
+                pausa();
+                break;
+                
+            case '12':
+                system("cls");
+                cout << "Usted eligio el...\n";
+                pausa();
+                break;
+            case '13':
                 flag=true;
                 cout << "Usted ha finalizado el programa\n";
                 //exit(1);
