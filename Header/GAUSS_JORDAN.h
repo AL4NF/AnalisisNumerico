@@ -12,14 +12,14 @@
 #include <cstdlib>
 #include <math.h>
 
-//encapsulamiento de una matriz para uso en eliminacion gaussiana
+//Sirve para estructurar la matriz
 struct matriz
 {
     int n, m; //número de filas y columnas de la matriz
-    double** p; //puntos de la ecuación
+    double** p; //matriz con punteros
     
     matriz(){}
-    //inicializa una matriz vacia de las dimensiones solicitadas
+    //inicia la matriz
     matriz(int ni,int  mi){
         n = ni;
         m = mi;
@@ -33,7 +33,7 @@ struct matriz
 };
 
 
-//lee una matriz que ya tenga definidos el numero de filas y de columnas
+//lee la matriz
 void leer_matriz(matriz *entrada){
     double aux;
     for(int i = 0; i < entrada->n; ++i)
@@ -106,7 +106,7 @@ matriz sustitucion_progresiva(matriz in){
 
 
 
-//imprime una matriz que se le pase como parametro
+//imprime la matriz
 void imprimir(matriz in){
     printf("impresion de la matriz n con %d filas y %d columnas\n", in.n, in.m);
     for(int i = 0; i < in.n; ++i){
@@ -121,6 +121,7 @@ void imprimir(matriz in){
 
 int Gauss()
 {
+    printf("\n------===GAUSS JORDAN===------\n\n");
     int filas, columnas;
     printf("ingrese el numero de filas y columnas\n");
     scanf("%d %d", &filas, &columnas);

@@ -86,6 +86,7 @@ int main(void)
             case '7':
                 system("cls");
                 cout << "Usted eligio el Metodo de Gauss Seidel\n";
+                Seidel()
                 pausa();
                 break;
                 

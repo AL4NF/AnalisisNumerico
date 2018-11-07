@@ -20,7 +20,7 @@ int Biseccion()
     double xi,xd,ea,em,test,xa,xaold;
     
     
-    printf("\nMETODO DE BISECCION\n\n");
+    printf("\n------===BISECCION===------\n\n");
     
     printf("Introduce el X0\n");
     scanf("%lf",&xi);

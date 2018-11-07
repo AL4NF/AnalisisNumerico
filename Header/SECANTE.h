@@ -30,7 +30,7 @@ public:
 Secante::Secante(): xi(0.0), xii(0.0), err(0.0), n(0) {}
 void Secante::datos()
 {
-    cout<<" METODO DE LA SECANTE    "<<endl;
+    cout<<"\n------===SECANTE===------\n\n"<<endl;
     cout<<"Dame el intervalo izquierdo Xi-1= ";cin>>xii;
     cout<<"Dame el intervalo derecho Xi= ";cin>>xi;
     cout<<"Dame el margen de error err= ";cin>>err;

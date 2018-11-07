@@ -31,7 +31,7 @@ public:
 Puntofijo::Puntofijo(): xi(0.0), err(0.0), n(0) {}
 void Puntofijo::datos()
 {
-    cout<<" \t\t\t\tMETODO DE PUNTO FIJO   "<<endl;
+    cout<<"\n------===PUNTO FIJO===------\n\n"<<endl;
     cout<<" "<<endl;
     cout<<"\t\tDame el valor inicial Xi= ";cin>>xi;
     cout<<"\t\tDame el margen de error err= ";cin>>err;

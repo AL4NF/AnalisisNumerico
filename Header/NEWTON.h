@@ -18,7 +18,7 @@ int Newton()
     float funcionD(float xi);
     float funcionN(float xi, float fx,float dfx);
     float error(float xi, float nxi );
-    printf("\t\tMetodo de Newton\n");
+    printf("\n------===METODO DE NEWTON===------\n\n");
     printf("\n Introduzca las iteraciones a realizar=");
     scanf("%d",&n);
     printf("\n Introduzca el margen de Error=");
