@@ -33,10 +33,12 @@ int main(void)
         cout << "8. Metodo de Diferencia Dividida de Newton" << endl;
         cout << "9. Metodo de de Lagrange" << endl;
         cout << "10. Metodo de Minimos Cuadrados" << endl;
-        cout << "11. Metodo de" << endl;
-        cout << "12. Metodo de" << endl;
-        cout << "13." << endl;
-        cout << "14. Salir" << endl;
+        cout << "11. Metodo del Trapecio" << endl;
+        cout << "12. Metodo de Euler" << endl;
+        cout << "13. Metodo de Simpson" << endl;
+        cout << "14. Metodo de Runge Kutta" << endl;
+        
+        cout << "15. Salir" << endl;
         
         cin >> opc;
         
@@ -110,16 +112,29 @@ int main(void)
                 
             case '11':
                 system("cls");
-                cout << "Usted eligio el...\n";
+                cout << "Usted eligio el Metodo del Trapecio\n";
                 pausa();
                 break;
                 
             case '12':
                 system("cls");
-                cout << "Usted eligio el...\n";
+                cout << "Usted eligio el Metodo de Euler\n";
                 pausa();
                 break;
+                
             case '13':
+                system("cls");
+                cout << "Usted eligio el Metodo de Simpsonn";
+                pausa();
+                break;
+                
+            case '14':
+                system("cls");
+                cout << "Usted eligio el Metodo de Runge Kutta\n";
+                pausa();
+                break;
+                
+            case '15':
                 flag=true;
                 cout << "Usted ha finalizado el programa\n";
                 //exit(1);
