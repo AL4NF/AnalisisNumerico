@@ -31,6 +31,7 @@ public:
     }
     void datos()
     {
+        printf("\n------===NEWTON COMPLEJO===------\n\n");
         cout<<"\n\nINTRODUCIR LOS VALORES ENTRE PARENTESIS: (X,Y)\n";
         cout<<endl<<"Ingresa el valor inicial: "; cin>>zi;
         cout<<"Ingresa la tolerancia de error: "; cin>>tol;
@@ -66,7 +67,7 @@ public:
     double ERR(complex<double> e,complex<double> e1)
     { return abs((e1-e)/e1);    }
 };
-int main()
+int NewtonC()
 {
     Newton_Complex o;
     cout << "Programa que resuelve la ecuacion Z^2+2 por el metodo de Newton-Raphson (tangente)" << endl;

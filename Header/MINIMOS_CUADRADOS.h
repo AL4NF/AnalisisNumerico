@@ -18,6 +18,7 @@ void minimos(void)
     double *x,*y,a[100][100],sumx[100],sumy[100],vs[100];
     int i,j,n,m,k;
     string nom1;
+    cout("\n------===MINIMOS CUADRADOS===------\n\n");
     cout<<"\n\nDame el numero de puntos m= ";cin>>n;
     x=new double [n];
     y=new double [n];
@@ -101,7 +102,7 @@ void minimos(void)
     }
 }
 
-int main()
+int Minimos()
 {
     minimos();
     return 0;

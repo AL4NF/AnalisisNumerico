@@ -3,9 +3,23 @@
 #include"OBJETIVO.h"
 #include"BISECCION.h"
 #include "NEWTON.h"
+#include "NEWTON_COMPLEJO.h"
 #include"SECANTE.h"
 #include"PUNTOFIJO.h"
 #include"GAUSS_JORDAN.h"
+#include"GAUSS_SEIDEL.h"
+#include".h"//
+#include"LAGRANGE.h"
+#include"MINIMOS_CUADRADOS.h"
+#include"TRAPECIO.h"
+#include"EULER.h"
+#include"SIMPSON.h"
+#include"KUTTA.h"//
+
+
+
+
+
 
 using namespace std;
 
@@ -61,6 +75,7 @@ int main(void)
             case '3':
                 system("cls");
                 cout << "Usted eligio el Metodo de Newton-Rhapson Complejo\n";
+                NewtonC();//revisar
                 pausa();
                 break;
                 
@@ -88,7 +103,7 @@ int main(void)
             case '7':
                 system("cls");
                 cout << "Usted eligio el Metodo de Gauss Seidel\n";
-                Seidel()
+                Seidel();
                 pausa();
                 break;
                 
@@ -101,36 +116,42 @@ int main(void)
             case '9':
                 system("cls");
                 cout << "Usted eligio el Metodo de Lagrange\n";
+                Lagrange();
                 pausa();
                 break;
                 
             case '10':
                 system("cls");
                 cout << "Usted eligio el Metodo de Minimos Cuadrados\n";
+                Minimos();
                 pausa();
                 break;
                 
             case '11':
                 system("cls");
                 cout << "Usted eligio el Metodo del Trapecio\n";
+                Trapecio();
                 pausa();
                 break;
                 
             case '12':
                 system("cls");
                 cout << "Usted eligio el Metodo de Euler\n";
+                Euler();
                 pausa();
                 break;
                 
             case '13':
                 system("cls");
                 cout << "Usted eligio el Metodo de Simpsonn";
+                Simpson();
                 pausa();
                 break;
                 
             case '14':
                 system("cls");
                 cout << "Usted eligio el Metodo de Runge Kutta\n";
+                Kutta();
                 pausa();
                 break;
                 

@@ -17,6 +17,8 @@ void lagrange(void)
 {
     int i,j,n;
     double *x,*y,Xi,Yi,num,den;
+    printf("\n------===METODO DE LAGRANGE===------\n\n");
+
     cout<<"Inserte el numero de puntos n= ";cin>>n;
     x=new double[n];
     y=new double[n];
@@ -46,7 +48,7 @@ void lagrange(void)
     cout<<setiosflags(ios::fixed)<<setiosflags(ios::showpoint)<<setprecision(2)<<endl;
     cout<<"f("<<Xi<<")= "<<Yi;
 }
-int main()
+int Lagrange()
 {
     lagrange();
     return 0;
